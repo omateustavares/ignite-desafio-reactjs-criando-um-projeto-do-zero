@@ -1,1 +1,58 @@
-// TODO
+.mainContainer {
+  width: 43.75rem;
+  min-height: 100%;
+  position: relative;
+  margin: 4rem auto;
+
+}
+
+.mainContainer .headerContainer {
+  height: 5rem;
+}
+
+.mainContainer .content {
+  width: 100%;
+  min-height: 6.75rem;
+  margin: 4rem 0;
+
+  p {
+    margin: 0.5rem 0 1.563rem 0;
+  }
+}
+
+.mainContainer .iconContainer {
+  display: flex;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    margin-right: 1.5rem;
+    width: 9.400rem;
+    height: 1.25rem;
+
+    svg {
+      margin-right: 0.656rem;
+      width: 1rem;
+      height: 1rem
+    }
+
+  }
+}
+
+.mainContainer .loadMoreContent {
+  border: 0;
+
+  color: var(--highlight);
+  font-size: 1rem;
+  font-weight:600;
+  padding: 0.5rem;
+  background: transparent;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.9)
+  }
+
+}
